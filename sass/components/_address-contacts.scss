@@ -14,11 +14,11 @@
     }
 }
 
-.contacts-list:not(:last-child) {
+.contacts__list:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.contacts-link {
+.contacts__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

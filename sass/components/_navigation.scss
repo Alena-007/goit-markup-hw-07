@@ -1,16 +1,16 @@
 .nav-list {
     display: flex;
 
-    .nav-link.current {
+    .nav-list__link.current {
         color: $primary-accent-color;
     }
 }
 
-.nav-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.nav-link {
+.nav-list__link {
     position: relative;
     display: block;
     padding-top: 32px;
