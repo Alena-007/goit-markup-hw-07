@@ -20,6 +20,11 @@
     color: $secondary-text-color-theme-light;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $primary-accent-color;
+    }
 }
 
 .tel-mail-icon {
@@ -27,14 +32,9 @@
     fill: $secondary-text-color-theme-light;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.tel-mail-link:hover,
-.tel-mail-link:focus {
-    color: $primary-accent-color;
-}
-
-.tel-mail-link:hover .tel-mail-icon,
-.tel-mail-link:focus .tel-mail-icon {
-    fill: $primary-accent-color;
+    .tel-mail-link:hover &,
+    .tel-mail-link:focus & {
+        fill: $primary-accent-color;
+    }
 }
